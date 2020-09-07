@@ -89,3 +89,7 @@ footer {
     background-color: green;
     width: 45%;
 }
+
+#verificarAdivinanza:focus{
+    text-decoration: underline;
+}
