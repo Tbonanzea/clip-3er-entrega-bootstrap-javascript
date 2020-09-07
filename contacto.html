@@ -61,7 +61,7 @@
                             >
                         </li>
                         <li class="nav-item container-fluid justify-content-end">
-                            <a href="contacto.html" class="nav-link">CONTACTO</a>
+                            <a href="#contacto" class="nav-link">CONTACTO</a>
                         </li>
                     </ul>
                 </div>
@@ -69,95 +69,35 @@
         </header>
 
         <main>
-            <section id="seccionUno" class="container-fluid">
-                <br />
-                <h1>Lorem ipsum dolor, sit amet consectetur</h1>
-                <br />
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Perspiciatis quidem quis a modi quibusdam sapiente, fuga
-                    quasi nihil ipsam iusto laudantium assumenda!
-                </p>
-                <br />
-            </section>
-
-            <section id="seccionDos" class="row container-fluid p-0 m-0 pt-5 pb-5">
-                <div class="container col-xs-12 col-md-6 col-lg-3">
-                    <img
-                        src="resources/images/imagen 1.jpg"
-                        alt="Texto explicativo" 
-                        style="height: 215px; width: 100%;"
-                    />
-                    <p class="mt-3 text-center">
-                        Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Perspiciatis quidem quis a
-                        modi quibusdam sapiente, fuga quasi nihil ipsam
-                        iusto laudantium assumenda!
-                    </p>
-                </div>
-                <div class="container col-xs-12 col-md-6 col-lg-3">
-                    <img
-                        src="resources/images/imagen 2.jpg"
-                        alt="Texto explicativo"
-                        style="height: 215px; width: 100%;"
-                    />
-                    <p class="mt-3 text-center">
-                        Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Perspiciatis quidem quis a
-                        modi quibusdam sapiente, fuga quasi nihil ipsam
-                        iusto laudantium assumenda!
-                    </p>
-                </div>
-                <div class="container col-xs-12 col-md-6 col-lg-3">
-                    <img
-                        src="resources/images/imagen 3.png"
-                        alt="Texto explicativo"
-                        style="height: 215px; width: 100%;"
-                    />
-                    <p class="mt-3 text-center">
-                        Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Perspiciatis quidem quis a
-                        modi quibusdam sapiente, fuga quasi nihil ipsam
-                        iusto laudantium assumenda!
-                    </p>
-                </div>
-                <div class="container col-xs-12 col-md-6 col-lg-3">
-                    <img
-                        src="resources/images/imagen 4.jpg"
-                        alt="Texto explicativo"
-                        style="height: 215px; width: 100%;"
-                    />
-                    <p class="mt-3 text-center">
-                        Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Perspiciatis quidem quis a
-                        modi quibusdam sapiente, fuga quasi nihil ipsam
-                        iusto laudantium assumenda!
-                    </p>
-                </div> 
-            </section>
-
-            <section id="seccionTres" class="container-fluid pt-5 pb-5">
-                <h2 class="text-center">Gane un descuento de hasta un 40% en cualquiera de nuestros servicios</h2>
-                <h6 class="text-center">Tiene 4 intentos...</h6>
-                <br>
-                <div class="container p-4">
-                    <p class="text-center">
-                        <b>¿Que comando de la consola de Git/Linux nos permite ver el directorio de trabajo en el que estamos posicionados actualmente?</b>
-                    </p>
+            <section id="contactForm" class="container-fluid p-4">
+                <form action="mailto:tomasbonanzea98@gmail.com" method="POST" class="p-3">
+                    <h2 style="font-size: 1.5rem;font-weight: 700;" class="text-center">
+                        CONTACTATE CON NOSOTROS
+                    </h2>
                     <br>
-                    <input type="text" class="form-control" id="rtaAdivinanza" placeholder="Escriba aqui su respuesta..." required>
-                    <br>
-                    <div id="pistas" class="container-fluid">
-                        <p id="pista1"><b>Pista 1:</b> En ingles significa "Imprimir Directorio de Trabajo"</p>
-                        <p id="pista2"><b>Pista 2:</b> Tiene 3 letras</p>
+                    <div class="form-group">
+                        <label for="name"><b>Nombre completo *</b></label>
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Ingrese su Nombre Completo" required>
                     </div>
+
+                    <div class="form-group">
+                        <label for="email"><b>Email *</b></label>
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Ingrese su E-Mail" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message"><b>Mensaje *</b></label>
+                        <textarea name="message" id="message" class="form-control" rows=10 placeholder="Escriba su mensaje aqui..."></textarea>
+                    </div>
+
+                    <small class="row justify-content-center text-center p-2">Los campos marcados con asterisco (*) son obligatorios.</small>
                     <br>
                     <div class="row justify-content-center">
-                        <button type="submit" id="verificarAdivinanza" class="btn btn-primary" onclick="">
-                            <b>Verificar Respuesta</b>
+                        <button type="submit" id="formSubmit" class="btn btn-primary">
+                            <b>Enviar Mensaje</b>
                         </button>
                     </div>
-                </div>
+                </form>
             </section>
         </main>
 
@@ -194,6 +134,5 @@
             integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
             crossorigin="anonymous"
         ></script>
-        <script src="js/adivinanza.js"></script>
     </body>
 </html>

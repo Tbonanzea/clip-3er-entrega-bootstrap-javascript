@@ -46,6 +46,16 @@ nav {
     background-color: #eee;
 }
 
+#seccionTres {
+    background-color: #ff6347;
+}
+
+#seccionTres > div {
+    border: 10px double #008b8b;
+    background-color: #eee;
+    border-radius: 30px;
+}
+
 footer {
     position: relative;
     bottom: 0;
@@ -58,4 +68,24 @@ footer {
 #fraseFooter > h2 {
     font-size: 1.4rem;
     font-weight: 700;
+}
+
+#contactForm {
+    background-color: #ff6347;
+}
+
+#contactForm > form {
+    border: 10px double #008b8b;
+    background-color: #eee;
+    border-radius: 30px;
+}
+
+#formSubmit {
+    background-color: green;
+    width: 40%;
+}
+
+#verificarAdivinanza {
+    background-color: green;
+    width: 45%;
 }
