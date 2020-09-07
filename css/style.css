@@ -1,0 +1,61 @@
+* {
+    font-family: "Roboto mono", "sans-serif";
+}
+
+nav {
+    background-color: #eee;
+}
+
+#collapsibleNavbar > ul > li > a {
+    color: #000;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+#collapsibleNavbar > ul > li > a:hover {
+    background-color: #008b8b;
+}
+
+#seccionUno {
+    background-image: url("../resources/images/imagen\ 1.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+#seccionUno > h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 70px 0;
+    background-color: #008b8b;
+    display: inline-block;
+    width: 60%;
+}
+
+#seccionUno > p {
+    font-size: 1rem;
+    margin: 0 0 70px 0;
+    background-color: #008b8b;
+    display: inline-block;
+    width: 85%;
+}
+
+#seccionDos {
+    background-color: #eee;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+}
+
+#contacto > p > a {
+    color: #000;
+}
+
+#fraseFooter > h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
